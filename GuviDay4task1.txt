@@ -1,0 +1,4 @@
+1. How to compare two JSON have the same properties without order?
+Ans : We compare two JSON objects by converting them to string using JSON.stringify.
+      but if the JSON objects have same properties but in different order. The equality check would fail in this case.
+      To compare two JSON objects and ensure equality, Lodash’s .isEqual() is used.
